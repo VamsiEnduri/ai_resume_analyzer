@@ -74,7 +74,7 @@ if st.button("Analyze Resume"):
 
     Job Description:
 
-    {job_description}
+    {job_desc}
 
     Please analyze this resume.
     """
