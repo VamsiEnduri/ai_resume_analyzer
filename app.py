@@ -2,10 +2,10 @@ import streamlit as st
 from openai import OpenAI
 from PyPDF2 import PdfReader
 
-# client=OpenAI(
-#     api_key=st.secrets["GROQ_API_KEY"],
-#     base_url="https://api.groq.com/openai/v1"
-# )
+client=OpenAI(
+    api_key=st.secrets["GROQ_API_KEY"],
+    base_url="https://api.groq.com/openai/v1"
+)
 
 st.title("AI Resume Analyzer")
 # st.info("check ats score and improve resume ats score")
